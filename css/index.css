@@ -1,0 +1,58 @@
+@import url('https://cdn.hldtru.space/stylesheets/ScaniaSans.css');
+@import url('https://cdn.hldtru.space/stylesheets/SFPro.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.video {
+  position: absolute;
+  object-fit: cover;
+  object-position: 50% 50%;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.scania_heading {
+  font-family: 'SF Pro Display', sans-serif;
+  font-size: 0.6rem;
+  font-style: normal;
+  font-weight: normal;
+  color: #fff;
+  z-index: 30;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 4px;
+  margin: auto;
+}
+
+.scania_body {
+  font-family: 'SF Pro Display', sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1;
+  color: #000;
+  z-index: 30;
+  padding-left: 2px;
+  padding-top: 6px;
+  padding-right: 4px;
+  padding-bottom: 2px;
+}
+
+.scania_bodysmall {
+  font-family: 'SF Pro Display', sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  color: gray;
+  z-index: 30;
+  padding-left: 2px;
+  padding-top: 2px;
+  padding-right: 4px;
+  padding-bottom: 4px;
+}
