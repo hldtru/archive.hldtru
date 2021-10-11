@@ -16,17 +16,11 @@
 }
 
 .scania_heading {
-  font-family: 'SF Pro Display', sans-serif;
-  font-size: 0.6rem;
+  font-family: 'Scania Sans CY Headline', sans-serif;
+  font-size: 1rem;
   font-style: normal;
-  font-weight: normal;
-  color: #fff;
+  font-weight: Bold;
   z-index: 30;
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 4px;
-  margin: auto;
 }
 
 .scania_body {

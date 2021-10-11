@@ -8,9 +8,9 @@ export default function Header() {
 
   return (
     <header className="bg-transparent h-10 mb-3 mt-0 w-screen z-50">
-      <div className="flex fixed top-0 justify-between mt-2 mb-2 px-4 text-black h-full w-full z-50">
-        <div>Archive</div>
-        <div>Logo</div>
+      <div className="flex fixed top-0 justify-between mt-2 mb-2 px-2 text-black h-full w-full z-50">
+        <div><Link href="/">Archive</Link></div>
+        <div className="scania_heading mix-blend-difference">ARCHIVE®</div>
         <div>Menu</div>
       </div>
     </header>
