@@ -1,13 +1,10 @@
 import Image from "next/image";
 
-export default function AboutPage() {
+export default function Copenhagen() {
   return (
 
 
-
-
 <div></div>
-
 
 
 
