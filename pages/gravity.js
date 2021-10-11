@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Next() {
+export default function Gravity() {
   return (
 
 <div>
